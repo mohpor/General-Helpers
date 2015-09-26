@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'general-helpers_Example', :exclusive => true do
+  pod "general-helpers", :path => "../"
+end
+
+target 'general-helpers_Tests', :exclusive => true do
+  pod "general-helpers", :path => "../"
+
+  
+end
