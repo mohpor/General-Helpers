@@ -1,0 +1,14 @@
+PODS:
+  - general-helpers (0.1.0)
+
+DEPENDENCIES:
+  - general-helpers (from `../`)
+
+EXTERNAL SOURCES:
+  general-helpers:
+    :path: ../
+
+SPEC CHECKSUMS:
+  general-helpers: 7eb704e6bf39b6cdcaafdb511fe96883a6af92c7
+
+COCOAPODS: 0.38.2

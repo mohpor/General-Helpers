@@ -1,0 +1,6 @@
+framework module general_helpers {
+  umbrella header "general-helpers-umbrella.h"
+
+  export *
+  module * { export * }
+}

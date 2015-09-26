@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "general-helpers"
   s.version          = "0.1.0"
-  s.summary          = "A short description of general-helpers."
+  s.summary          = "A repository to add All helper methods I have developed over the years."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                       DESC
+                       Although Cocoa Touch and xcode include many tools to help start and develop projects, but every developer has his/her own methodology and after a period of time developing, will come up with a few set of tools he/she end up using in all projects. this repository refelcts the tools I'm using in almost all projects.
+					   DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/general-helpers"
+  s.homepage         = "https://github.com/mohpor/General-Helpers"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "M. Porooshani" => "porooshani@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/general-helpers.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/mohpor/General-Helpers.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/mohpor'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

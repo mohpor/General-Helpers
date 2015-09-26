@@ -1,0 +1,25 @@
+{
+  "name": "general-helpers",
+  "version": "0.1.0",
+  "summary": "A short description of general-helpers.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/general-helpers",
+  "license": "MIT",
+  "authors": {
+    "M. Porooshani": "porooshani@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/general-helpers.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "general-helpers": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
